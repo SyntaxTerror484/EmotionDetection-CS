@@ -1,7 +1,7 @@
 import mysql.connector
 from detector import Detector
 
-conn = mysql.connector.connect(host='localhost', user='root', password='password2006', database='emotions')
+conn = mysql.connector.connect(host='localhost', user='root', password='', database='emotions')
 cursor = conn.cursor()
 
 print("Connection Established: " + str(conn.is_connected()))
