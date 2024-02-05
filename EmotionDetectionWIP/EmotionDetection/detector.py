@@ -86,6 +86,8 @@ class Detector:
         cv2.destroyAllWindows()
 
         try:
+            if c2 == 0:
+                c2 = 1
             return (emotion_list, age_avg//c1, age_avg_angry//c2)
         
         except Exception as E:
